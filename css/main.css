@@ -1,0 +1,147 @@
+:root{
+    --primary-color: #999;
+    --secondary-color:#307D99;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+          
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/bg.png);    
+    line-height: 1.6rem;
+}
+
+
+.wrapper{
+    position: relative;
+    background-color: #fff;
+    max-width: 600px;
+    min-height: 650px; 
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 5em;
+}
+
+.wrapper h2{
+    margin-bottom: 0.5em;
+    color: var(--secondary-color);
+}
+
+.wrapper p{
+    margin-bottom: 2em;
+}
+
+.wrapper form label{
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    display: block;
+    cursor: pointer;
+    
+}
+
+
+.wrapper input{
+    padding: 1.8em;
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    outline: none;
+    border-bottom: 5px solid var(--primary-color);
+
+}
+
+
+
+.option{
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+.btn{
+    background-color: #0d4f81;
+    float: right;
+    padding: .5em;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: var(--secondary-color);
+    transition: all .5s ease;
+}
+
+hr{
+    opacity: .3;
+    border: 1px solid var(--primary-color);
+}
+
+.social-login p{
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 1.5em;
+}
+
+.social-login a{
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    padding: .7em;
+    display: inline-block;
+    width: 200px;  
+    border-radius: 5px;
+    margin-right: 1.1em;
+    text-align: center;         
+}
+
+
+
+ .social-login a:nth-child(2){
+    background: #0000ffce;
+}
+
+.social-login a:nth-child(2):hover{
+    background: #0000ff;
+    transition: all .5s ease-in;
+}
+
+.social-login a:last-child{
+    background: #000000c9;
+} 
+
+.social-login a:last-child:hover{
+    background: #000;
+    transition: all .5s ease-in;
+} 
+
+
+.social-login i {
+    /* font-size: 5rem; */
+    margin: .3em;      
+}
+
+
+.info{
+    display: inline-flex;
+    margin-left: 6em;
+    position: absolute;
+    bottom:0;
+    
+}
+
+.info a{
+    position: relative;
+    left: 5px;
+    text-decoration: underline;
+}
+
